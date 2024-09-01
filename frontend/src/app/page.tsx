@@ -2,7 +2,8 @@
 
 import Image from "next/image";
 import { useState, useEffect } from "react";
-import bitbotLogo from '@/app/images/bitbot_logo.png';
+import bitbotLogo from './images/bitbot_logo.png';
+
 
 interface Week {
   title: string;
@@ -235,8 +236,8 @@ export default function Home() {
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-xl font-semibold mb-2 text-blue-600"            style={{ fontFamily: 'Poppins, sans-serif' }}
                 >AI-Powered Learning</h3>
-                <p className="text-gray-600">Personalized instruction adapts to your child's pace and style</p>
-              </div>
+                  <p className="text-gray-600">Personalized instruction adapts to your child&apos;s pace and style</p>
+                  </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-xl font-semibold mb-2 text-blue-600"            style={{ fontFamily: 'Poppins, sans-serif' }}
                 >Age-Appropriate Content</h3>
@@ -300,7 +301,7 @@ export default function Home() {
               />
             </div>
             <p className="text-lg mb-6 text-gray-700">
-              Start your child's coding adventure today!
+              Start your child&apos;s coding adventure today!
             </p>
           <form>
             <input
